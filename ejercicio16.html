@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">      
+
+    <title>Números Positivos y Negativos</title>
+
+</head>
+<body>
+    <h2>Números Positivos y Negativos</h2>
+    <form id="numerosForm">
+        <label for="numeros">Ingrese 10 números separados por coma:</label>
+        <input type="text" id="numeros" name="numeros" required>
+        <button type="button" class="boton" onclick="clasificarNumeros()">Clasificar</button>
+      
+    
+    </form>
+    <form action="./menu.html">
+        <button type="submit" class="boton">Regresar</button>
+  
+  </form>
+  <div class="resultado-container">
+
+  <div id="resp">
+
+    <div id="resultado">
+        <h3>Números Positivos:</h3>
+        <ul id="positivos"></ul>
+        <h3>Números Negativos:</h3>
+        <ul id="negativos"></ul>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

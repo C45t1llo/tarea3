@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">      
+    <title>Números en Orden Inverso</title>
+</head>
+
+    <h2>Números en Orden Inverso</h2>
+    <form id="numerosForm" onsubmit="mostrarOrdenInverso(event)">
+        <label for="numeros">Ingrese 5 números separados por coma:</label>
+        <input type="text" id="numeros" placeholder="Ej. 1, 2, 3, 4, 5" required>
+        <button type="submit" class="boton">Aceptar</button>
+
+    </form>
+
+    <form action="/pages/menu.html">
+        <button type="submit" class="boton">Regresar</button>
+    </form>
+    <div class="resultado-container">
+
+    <div id="resp">
+        <div id="resultado">
+
+            <p id="mensajeResultado"></p>
+
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">      
+
+  <title>Números Pares</title>
+</head>
+<body>
+
+    <h2>Números Pares de N números</h2>
+    <form action="./menu.html">
+
+    <label for="numeros">Ingrese los números separados por comas:</label>
+    <input type="text" id="numeros" placeholder="Ej. 1, 2, 3, 4">
+  
+    <button type="button" class="boton" onclick="mostrarPares()">Aceptar</button>
+    <button type="submit" class="boton">Regresar</button>
+   
+    <div class="resultado-container">
+
+    <div id="resp">
+      <ul id="pares-list"></ul>
+    </div>
+  
+<ul id="pares-list"></ul>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

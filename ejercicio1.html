@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">      
+  <title>Presentar un mensaje N veces</title>
+
+</head>
+<body>
+
+<h2>Presentar un mensaje N veces</h2>
+
+<label for="mensaje">Ingrese el mensaje:</label>
+<input type="text" id="mensaje">
+<form action="./menu.html">
+<p><label for="veces">Ingrese la cantidad de veces:</label>
+  <input type="number" id="veces" min="1" step="1">
+</p>
+
+<div class="botones">
+  <button type="button" class="boton" onclick="presentarMensaje()">Aceptar</button>
+    <button type="submit" class="boton">Regresar</button>
+</form>
+</div>
+
+<div class="resultado-container">
+  <div id="resultado"></div>
+</div>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>

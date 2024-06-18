@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <title>Múltiplos de un número</title>
+ 
+</head>
+<body>
+
+  <h2>Múltiplos de cualquier número hasta N</h2>
+  <form action="./menu.html">
+
+  <label for="base">Ingrese la base:</label>
+  <input type="number" id="base" min="1" step="1">
+  <p> <label for="numero">Ingrese N:</label>
+    <input type="number" id="numero" min="1" step="1"</p>
+  
+  <button type="button" class="boton" onclick="mostrarMultiplos()">Aceptar</button>
+  <button type="submit" class="boton">Regresar</button>
+  <div class="resultado-container">
+
+  <div id="resp">
+    <ul id="multiplos-list"></ul>
+    <script src="../js/main.js"></script>
+
+  </div>
+</body>
+</html>
